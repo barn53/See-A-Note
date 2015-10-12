@@ -16,10 +16,8 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-*.sf2 
 .DS_Store
 *.pdf
-*.otf
 
 # CocoaPods
 #
