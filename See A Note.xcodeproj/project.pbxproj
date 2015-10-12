@@ -37,6 +37,7 @@
 		17EADF7A1BCC30EF00E16715 /* ScoreLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreLineView.swift; path = "Score-Line/ScoreLineView.swift"; sourceTree = "<group>"; };
 		17EADF831BCC3D1800E16715 /* BravuraText.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BravuraText.otf; path = "Score-Line/Resources/BravuraText.otf"; sourceTree = "<group>"; };
 		17EADF841BCC3D1800E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GeneralUser GS MuseScore v1.442-2.sf2"; path = "Score-Line/Resources/GeneralUser GS MuseScore v1.442-2.sf2"; sourceTree = "<group>"; };
+		17EADF901BCC671C00E16715 /* See A Note-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "See A Note-Bridging-Header.h"; path = "Score-Line/See A Note-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +86,13 @@
 		176584AC1B962F670019638F /* Score-Line */ = {
 			isa = PBXGroup;
 			children = (
-				17EADF821BCC3D0300E16715 /* Resources */,
 				17EADF761BCC30EF00E16715 /* MidiTest.swift */,
 				17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */,
 				17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */,
 				17EADF791BCC30EF00E16715 /* ScoreGestures.swift */,
 				17EADF7A1BCC30EF00E16715 /* ScoreLineView.swift */,
+				17EADF821BCC3D0300E16715 /* Resources */,
+				17EADF901BCC671C00E16715 /* See A Note-Bridging-Header.h */,
 			);
 			name = "Score-Line";
 			sourceTree = "<group>";
@@ -303,11 +305,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "See A Note/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.gerdmuller.See-A-Note";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "See A Note/Score-Line/See A Note-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -316,11 +321,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "See A Note/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.gerdmuller.See-A-Note";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "See A Note/Score-Line/See A Note-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
