@@ -13,12 +13,12 @@
 		170049AD1B94CE61007CF0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170049AC1B94CE61007CF0A7 /* Assets.xcassets */; };
 		170049B01B94CE61007CF0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170049AE1B94CE61007CF0A7 /* LaunchScreen.storyboard */; };
 		173CAEDF1BA22165004443FD /* BravuraText.otf in Resources */ = {isa = PBXBuildFile; fileRef = 176584B21B96302C0019638F /* BravuraText.otf */; };
-		176584B61B9630360019638F /* MusicalSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176584B41B9630360019638F /* MusicalSymbols.swift */; };
-		176584B71B9630360019638F /* ScoreLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176584B51B9630360019638F /* ScoreLineView.swift */; };
-		1784F41D1BA890B4004F73DF /* ScoreGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784F41C1BA890B4004F73DF /* ScoreGestures.swift */; settings = {ASSET_TAGS = (); }; };
-		1784F41F1BA89200004F73DF /* ScoreEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784F41E1BA89200004F73DF /* ScoreEditButton.swift */; settings = {ASSET_TAGS = (); }; };
-		1784F4231BA8B972004F73DF /* MidiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784F4221BA8B972004F73DF /* MidiTest.swift */; settings = {ASSET_TAGS = (); }; };
-		17995E441BA35BE700E380DE /* GeneralUser GS MuseScore v1.442.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 17995E431BA35BE700E380DE /* GeneralUser GS MuseScore v1.442.sf2 */; };
+		17EADF7B1BCC30EF00E16715 /* MidiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF761BCC30EF00E16715 /* MidiTest.swift */; settings = {ASSET_TAGS = (); }; };
+		17EADF7C1BCC30EF00E16715 /* MusicalSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */; settings = {ASSET_TAGS = (); }; };
+		17EADF7D1BCC30EF00E16715 /* ScoreEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */; settings = {ASSET_TAGS = (); }; };
+		17EADF7E1BCC30EF00E16715 /* ScoreGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF791BCC30EF00E16715 /* ScoreGestures.swift */; settings = {ASSET_TAGS = (); }; };
+		17EADF7F1BCC30EF00E16715 /* ScoreLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF7A1BCC30EF00E16715 /* ScoreLineView.swift */; settings = {ASSET_TAGS = (); }; };
+		17EADF811BCC31ED00E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 17EADF801BCC31ED00E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,13 +30,13 @@
 		170049AF1B94CE61007CF0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		170049B11B94CE61007CF0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		176584B21B96302C0019638F /* BravuraText.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BravuraText.otf; path = Resources/BravuraText.otf; sourceTree = "<group>"; };
-		176584B41B9630360019638F /* MusicalSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicalSymbols.swift; path = "Score Line/MusicalSymbols.swift"; sourceTree = "<group>"; };
-		176584B51B9630360019638F /* ScoreLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreLineView.swift; path = "Score Line/ScoreLineView.swift"; sourceTree = "<group>"; };
-		1784F41C1BA890B4004F73DF /* ScoreGestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreGestures.swift; path = "Score Line/ScoreGestures.swift"; sourceTree = "<group>"; };
-		1784F41E1BA89200004F73DF /* ScoreEditButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreEditButton.swift; path = "Score Line/ScoreEditButton.swift"; sourceTree = "<group>"; };
-		1784F4221BA8B972004F73DF /* MidiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MidiTest.swift; path = "Score Line/MidiTest.swift"; sourceTree = "<group>"; };
-		17995E431BA35BE700E380DE /* GeneralUser GS MuseScore v1.442.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralUser GS MuseScore v1.442.sf2"; sourceTree = "<group>"; };
 		17B29C1E1B94E8D6004919A0 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
+		17EADF761BCC30EF00E16715 /* MidiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MidiTest.swift; path = "Score-Line/MidiTest.swift"; sourceTree = "<group>"; };
+		17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicalSymbols.swift; path = "Score-Line/MusicalSymbols.swift"; sourceTree = "<group>"; };
+		17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreEditButton.swift; path = "Score-Line/ScoreEditButton.swift"; sourceTree = "<group>"; };
+		17EADF791BCC30EF00E16715 /* ScoreGestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreGestures.swift; path = "Score-Line/ScoreGestures.swift"; sourceTree = "<group>"; };
+		17EADF7A1BCC30EF00E16715 /* ScoreLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreLineView.swift; path = "Score-Line/ScoreLineView.swift"; sourceTree = "<group>"; };
+		17EADF801BCC31ED00E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GeneralUser GS MuseScore v1.442-2.sf2"; path = "Resources/GeneralUser GS MuseScore v1.442-2.sf2"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,9 @@
 		170049A41B94CE61007CF0A7 /* See A Note */ = {
 			isa = PBXGroup;
 			children = (
+				17EADF751BCC30CF00E16715 /* MusicCalculator */,
 				176584AF1B9630110019638F /* Resources */,
-				176584AC1B962F670019638F /* Score Line */,
+				176584AC1B962F670019638F /* Score-Line */,
 				170049A51B94CE61007CF0A7 /* AppDelegate.swift */,
 				170049A71B94CE61007CF0A7 /* ViewController.swift */,
 				170049A91B94CE61007CF0A7 /* Main.storyboard */,
@@ -82,25 +83,32 @@
 			path = "See A Note";
 			sourceTree = "<group>";
 		};
-		176584AC1B962F670019638F /* Score Line */ = {
+		176584AC1B962F670019638F /* Score-Line */ = {
 			isa = PBXGroup;
 			children = (
-				1784F4221BA8B972004F73DF /* MidiTest.swift */,
-				176584B41B9630360019638F /* MusicalSymbols.swift */,
-				176584B51B9630360019638F /* ScoreLineView.swift */,
-				1784F41C1BA890B4004F73DF /* ScoreGestures.swift */,
-				1784F41E1BA89200004F73DF /* ScoreEditButton.swift */,
+				17EADF761BCC30EF00E16715 /* MidiTest.swift */,
+				17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */,
+				17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */,
+				17EADF791BCC30EF00E16715 /* ScoreGestures.swift */,
+				17EADF7A1BCC30EF00E16715 /* ScoreLineView.swift */,
 			);
-			name = "Score Line";
+			name = "Score-Line";
 			sourceTree = "<group>";
 		};
 		176584AF1B9630110019638F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				17995E431BA35BE700E380DE /* GeneralUser GS MuseScore v1.442.sf2 */,
+				17EADF801BCC31ED00E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 */,
 				176584B21B96302C0019638F /* BravuraText.otf */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		17EADF751BCC30CF00E16715 /* MusicCalculator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MusicCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17EADF811BCC31ED00E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 in Resources */,
 				173CAEDF1BA22165004443FD /* BravuraText.otf in Resources */,
 				170049B01B94CE61007CF0A7 /* LaunchScreen.storyboard in Resources */,
 				170049AD1B94CE61007CF0A7 /* Assets.xcassets in Resources */,
-				17995E441BA35BE700E380DE /* GeneralUser GS MuseScore v1.442.sf2 in Resources */,
 				170049AB1B94CE61007CF0A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,13 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				176584B61B9630360019638F /* MusicalSymbols.swift in Sources */,
-				1784F41D1BA890B4004F73DF /* ScoreGestures.swift in Sources */,
-				176584B71B9630360019638F /* ScoreLineView.swift in Sources */,
 				170049A81B94CE61007CF0A7 /* ViewController.swift in Sources */,
-				1784F4231BA8B972004F73DF /* MidiTest.swift in Sources */,
-				1784F41F1BA89200004F73DF /* ScoreEditButton.swift in Sources */,
 				170049A61B94CE61007CF0A7 /* AppDelegate.swift in Sources */,
+				17EADF7D1BCC30EF00E16715 /* ScoreEditButton.swift in Sources */,
+				17EADF7C1BCC30EF00E16715 /* MusicalSymbols.swift in Sources */,
+				17EADF7E1BCC30EF00E16715 /* ScoreGestures.swift in Sources */,
+				17EADF7B1BCC30EF00E16715 /* MidiTest.swift in Sources */,
+				17EADF7F1BCC30EF00E16715 /* ScoreLineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

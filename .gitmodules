@@ -1,3 +1,6 @@
 [submodule "See A Note/MusicCalculator"]
 	path = See A Note/MusicCalculator
 	url = https://github.com/gerdmuller/MusicCalculator.git
+[submodule "See A Note/Score-Line"]
+	path = See A Note/Score-Line
+	url = https://github.com/gerdmuller/Score-Line.git

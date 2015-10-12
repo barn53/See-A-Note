@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "455ED6BFE9C1649B824C0B498E9065D29CBDB041",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9661D13012C2EC247AC1C7A6D9C40B6BEFE28F82" : 0,
+    "455ED6BFE9C1649B824C0B498E9065D29CBDB041" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DF0D3FD9-DF3F-42CC-8647-A580BF482C15",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9661D13012C2EC247AC1C7A6D9C40B6BEFE28F82" : "See-A-Note\/See%20A%20Note\/Score-Line\/",
+    "455ED6BFE9C1649B824C0B498E9065D29CBDB041" : "See-A-Note\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "See A Note",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "See A Note.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gerdmuller\/See-A-Note.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "455ED6BFE9C1649B824C0B498E9065D29CBDB041"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gerdmuller\/Score-Line.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9661D13012C2EC247AC1C7A6D9C40B6BEFE28F82"
+    }
+  ]
+}
