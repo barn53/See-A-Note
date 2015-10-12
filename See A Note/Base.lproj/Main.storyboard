@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B30a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,33 +18,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pFq-vl-3Iv" customClass="ScoreLineView" customModule="See_A_Note" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="15" width="600" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pFq-vl-3Iv" customClass="ScoreLineView" customModule="See_A_Note" customModuleProvider="target">
+                                <rect key="frame" x="28" y="8" width="544" height="200"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="RtU-tw-CIv"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeX-IE-HHm">
-                                <rect key="frame" x="20" y="457" width="115" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeX-IE-HHm">
+                                <rect key="frame" x="28" y="562" width="84" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="ixo-5v-qlA"/>
+                                    <constraint firstAttribute="height" constant="30" id="wpz-ih-L3f"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Draw Debug"/>
                                 <connections>
                                     <action selector="toggleDebug:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YLn-UV-EQf"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XjQ-6V-juw" customClass="ScoreEditButtonView" customModule="See_A_Note" customModuleProvider="target">
-                                <rect key="frame" x="107" y="194" width="135" height="116"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XjQ-6V-juw" customClass="ScoreEditButtonView" customModule="See_A_Note" customModuleProvider="target">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="LUy-ZA-nXg"/>
+                                    <constraint firstAttribute="width" constant="200" id="Xu2-Um-aDg"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XjQ-6V-juw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="688-k2-ZVn"/>
+                            <constraint firstItem="EeX-IE-HHm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="WxX-i5-OuI"/>
+                            <constraint firstItem="pFq-vl-3Iv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="sKS-8U-Rix"/>
+                            <constraint firstItem="pFq-vl-3Iv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="8" id="xfX-Fh-7Cv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pFq-vl-3Iv" secondAttribute="trailing" constant="8" id="z0l-tA-l26"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EeX-IE-HHm" secondAttribute="bottom" constant="8" id="zWI-Q8-eag"/>
+                            <constraint firstItem="XjQ-6V-juw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zmb-tp-JOu"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="editButton" destination="XjQ-6V-juw" id="xTY-7p-kHl"/>
@@ -52,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="349" y="417"/>
+            <point key="canvasLocation" x="368" y="435"/>
         </scene>
     </scenes>
 </document>
