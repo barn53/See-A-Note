@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		170049A61B94CE61007CF0A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170049A51B94CE61007CF0A7 /* AppDelegate.swift */; };
-		170049A81B94CE61007CF0A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170049A71B94CE61007CF0A7 /* ViewController.swift */; };
+		170049A81B94CE61007CF0A7 /* IntervalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170049A71B94CE61007CF0A7 /* IntervalsViewController.swift */; };
 		170049AB1B94CE61007CF0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170049A91B94CE61007CF0A7 /* Main.storyboard */; };
 		170049AD1B94CE61007CF0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170049AC1B94CE61007CF0A7 /* Assets.xcassets */; };
 		170049B01B94CE61007CF0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170049AE1B94CE61007CF0A7 /* LaunchScreen.storyboard */; };
+		175FCCAC1BCD98DB0040B6D8 /* CursorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCCAB1BCD98DB0040B6D8 /* CursorView.swift */; settings = {ASSET_TAGS = (); }; };
+		175FCCAE1BCDA21A0040B6D8 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCCAD1BCDA21A0040B6D8 /* OptionsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		17EADF7B1BCC30EF00E16715 /* MidiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF761BCC30EF00E16715 /* MidiTest.swift */; settings = {ASSET_TAGS = (); }; };
 		17EADF7C1BCC30EF00E16715 /* MusicalSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */; settings = {ASSET_TAGS = (); }; };
 		17EADF7D1BCC30EF00E16715 /* ScoreEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */; settings = {ASSET_TAGS = (); }; };
@@ -24,11 +26,13 @@
 /* Begin PBXFileReference section */
 		170049A21B94CE61007CF0A7 /* See A Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "See A Note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		170049A51B94CE61007CF0A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		170049A71B94CE61007CF0A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		170049A71B94CE61007CF0A7 /* IntervalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalsViewController.swift; sourceTree = "<group>"; };
 		170049AA1B94CE61007CF0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		170049AC1B94CE61007CF0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		170049AF1B94CE61007CF0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		170049B11B94CE61007CF0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175FCCAB1BCD98DB0040B6D8 /* CursorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CursorView.swift; path = "Score-Line/CursorView.swift"; sourceTree = "<group>"; };
+		175FCCAD1BCDA21A0040B6D8 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		17B29C1E1B94E8D6004919A0 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 		17EADF761BCC30EF00E16715 /* MidiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MidiTest.swift; path = "Score-Line/MidiTest.swift"; sourceTree = "<group>"; };
 		17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicalSymbols.swift; path = "Score-Line/MusicalSymbols.swift"; sourceTree = "<group>"; };
@@ -74,11 +78,12 @@
 				17EADF751BCC30CF00E16715 /* MusicCalculator */,
 				176584AC1B962F670019638F /* Score-Line */,
 				170049A51B94CE61007CF0A7 /* AppDelegate.swift */,
-				170049A71B94CE61007CF0A7 /* ViewController.swift */,
+				170049A71B94CE61007CF0A7 /* IntervalsViewController.swift */,
 				170049A91B94CE61007CF0A7 /* Main.storyboard */,
 				170049AC1B94CE61007CF0A7 /* Assets.xcassets */,
 				170049AE1B94CE61007CF0A7 /* LaunchScreen.storyboard */,
 				170049B11B94CE61007CF0A7 /* Info.plist */,
+				175FCCAD1BCDA21A0040B6D8 /* OptionsViewController.swift */,
 			);
 			path = "See A Note";
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 				17EADF7A1BCC30EF00E16715 /* ScoreLineView.swift */,
 				17EADF821BCC3D0300E16715 /* Resources */,
 				17EADF901BCC671C00E16715 /* See A Note-Bridging-Header.h */,
+				175FCCAB1BCD98DB0040B6D8 /* CursorView.swift */,
 			);
 			name = "Score-Line";
 			sourceTree = "<group>";
@@ -188,10 +194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170049A81B94CE61007CF0A7 /* ViewController.swift in Sources */,
+				170049A81B94CE61007CF0A7 /* IntervalsViewController.swift in Sources */,
 				170049A61B94CE61007CF0A7 /* AppDelegate.swift in Sources */,
 				17EADF7D1BCC30EF00E16715 /* ScoreEditButton.swift in Sources */,
+				175FCCAE1BCDA21A0040B6D8 /* OptionsViewController.swift in Sources */,
 				17EADF7C1BCC30EF00E16715 /* MusicalSymbols.swift in Sources */,
+				175FCCAC1BCD98DB0040B6D8 /* CursorView.swift in Sources */,
 				17EADF7E1BCC30EF00E16715 /* ScoreGestures.swift in Sources */,
 				17EADF7B1BCC30EF00E16715 /* MidiTest.swift in Sources */,
 				17EADF7F1BCC30EF00E16715 /* ScoreLineView.swift in Sources */,
