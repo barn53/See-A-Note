@@ -12,15 +12,25 @@
 		170049AB1B94CE61007CF0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170049A91B94CE61007CF0A7 /* Main.storyboard */; };
 		170049AD1B94CE61007CF0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170049AC1B94CE61007CF0A7 /* Assets.xcassets */; };
 		170049B01B94CE61007CF0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170049AE1B94CE61007CF0A7 /* LaunchScreen.storyboard */; };
-		175FCCAC1BCD98DB0040B6D8 /* CursorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCCAB1BCD98DB0040B6D8 /* CursorView.swift */; settings = {ASSET_TAGS = (); }; };
-		175FCCAE1BCDA21A0040B6D8 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCCAD1BCDA21A0040B6D8 /* OptionsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		17EADF7B1BCC30EF00E16715 /* MidiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF761BCC30EF00E16715 /* MidiTest.swift */; settings = {ASSET_TAGS = (); }; };
-		17EADF7C1BCC30EF00E16715 /* MusicalSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */; settings = {ASSET_TAGS = (); }; };
-		17EADF7D1BCC30EF00E16715 /* ScoreEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */; settings = {ASSET_TAGS = (); }; };
-		17EADF7E1BCC30EF00E16715 /* ScoreGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF791BCC30EF00E16715 /* ScoreGestures.swift */; settings = {ASSET_TAGS = (); }; };
-		17EADF7F1BCC30EF00E16715 /* ScoreLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF7A1BCC30EF00E16715 /* ScoreLineView.swift */; settings = {ASSET_TAGS = (); }; };
-		17EADF851BCC3D1800E16715 /* BravuraText.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17EADF831BCC3D1800E16715 /* BravuraText.otf */; settings = {ASSET_TAGS = (); }; };
-		17EADF861BCC3D1800E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 17EADF841BCC3D1800E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 */; settings = {ASSET_TAGS = (); }; };
+		1719373F1C99F61800A4973C /* Akkord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171937341C99F61800A4973C /* Akkord.swift */; };
+		171937401C99F61800A4973C /* Grundton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171937351C99F61800A4973C /* Grundton.swift */; };
+		171937411C99F61800A4973C /* Intervall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171937361C99F61800A4973C /* Intervall.swift */; };
+		171937421C99F61800A4973C /* IntervallModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171937371C99F61800A4973C /* IntervallModifier.swift */; };
+		171937431C99F61800A4973C /* IntervallTyp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171937381C99F61800A4973C /* IntervallTyp.swift */; };
+		171937441C99F61800A4973C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171937391C99F61800A4973C /* Note.swift */; };
+		171937451C99F61800A4973C /* Notenschluessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719373A1C99F61800A4973C /* Notenschluessel.swift */; };
+		171937461C99F61800A4973C /* Oktave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719373B1C99F61800A4973C /* Oktave.swift */; };
+		171937471C99F61800A4973C /* Tonart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719373C1C99F61800A4973C /* Tonart.swift */; };
+		171937481C99F61800A4973C /* Tonleiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719373D1C99F61800A4973C /* Tonleiter.swift */; };
+		171937491C99F61800A4973C /* Vorzeichen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719373E1C99F61800A4973C /* Vorzeichen.swift */; };
+		175FCCAC1BCD98DB0040B6D8 /* CursorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCCAB1BCD98DB0040B6D8 /* CursorView.swift */; };
+		175FCCAE1BCDA21A0040B6D8 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCCAD1BCDA21A0040B6D8 /* OptionsViewController.swift */; };
+		17EADF7C1BCC30EF00E16715 /* MusicalSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */; };
+		17EADF7D1BCC30EF00E16715 /* ScoreEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */; };
+		17EADF7E1BCC30EF00E16715 /* ScoreGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF791BCC30EF00E16715 /* ScoreGestures.swift */; };
+		17EADF7F1BCC30EF00E16715 /* ScoreLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF7A1BCC30EF00E16715 /* ScoreLineView.swift */; };
+		17EADF851BCC3D1800E16715 /* BravuraText.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17EADF831BCC3D1800E16715 /* BravuraText.otf */; };
+		17EADF861BCC3D1800E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 17EADF841BCC3D1800E16715 /* GeneralUser GS MuseScore v1.442-2.sf2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +41,20 @@
 		170049AC1B94CE61007CF0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		170049AF1B94CE61007CF0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		170049B11B94CE61007CF0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171937341C99F61800A4973C /* Akkord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Akkord.swift; path = MusicCalculator/Akkord.swift; sourceTree = "<group>"; };
+		171937351C99F61800A4973C /* Grundton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grundton.swift; path = MusicCalculator/Grundton.swift; sourceTree = "<group>"; };
+		171937361C99F61800A4973C /* Intervall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Intervall.swift; path = MusicCalculator/Intervall.swift; sourceTree = "<group>"; };
+		171937371C99F61800A4973C /* IntervallModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntervallModifier.swift; path = MusicCalculator/IntervallModifier.swift; sourceTree = "<group>"; };
+		171937381C99F61800A4973C /* IntervallTyp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntervallTyp.swift; path = MusicCalculator/IntervallTyp.swift; sourceTree = "<group>"; };
+		171937391C99F61800A4973C /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = MusicCalculator/Note.swift; sourceTree = "<group>"; };
+		1719373A1C99F61800A4973C /* Notenschluessel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notenschluessel.swift; path = MusicCalculator/Notenschluessel.swift; sourceTree = "<group>"; };
+		1719373B1C99F61800A4973C /* Oktave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Oktave.swift; path = MusicCalculator/Oktave.swift; sourceTree = "<group>"; };
+		1719373C1C99F61800A4973C /* Tonart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tonart.swift; path = MusicCalculator/Tonart.swift; sourceTree = "<group>"; };
+		1719373D1C99F61800A4973C /* Tonleiter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tonleiter.swift; path = MusicCalculator/Tonleiter.swift; sourceTree = "<group>"; };
+		1719373E1C99F61800A4973C /* Vorzeichen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vorzeichen.swift; path = MusicCalculator/Vorzeichen.swift; sourceTree = "<group>"; };
 		175FCCAB1BCD98DB0040B6D8 /* CursorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CursorView.swift; path = "Score-Line/CursorView.swift"; sourceTree = "<group>"; };
 		175FCCAD1BCDA21A0040B6D8 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		17B29C1E1B94E8D6004919A0 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
-		17EADF761BCC30EF00E16715 /* MidiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MidiTest.swift; path = "Score-Line/MidiTest.swift"; sourceTree = "<group>"; };
 		17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicalSymbols.swift; path = "Score-Line/MusicalSymbols.swift"; sourceTree = "<group>"; };
 		17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreEditButton.swift; path = "Score-Line/ScoreEditButton.swift"; sourceTree = "<group>"; };
 		17EADF791BCC30EF00E16715 /* ScoreGestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreGestures.swift; path = "Score-Line/ScoreGestures.swift"; sourceTree = "<group>"; };
@@ -91,7 +111,6 @@
 		176584AC1B962F670019638F /* Score-Line */ = {
 			isa = PBXGroup;
 			children = (
-				17EADF761BCC30EF00E16715 /* MidiTest.swift */,
 				17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */,
 				17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */,
 				17EADF791BCC30EF00E16715 /* ScoreGestures.swift */,
@@ -106,6 +125,17 @@
 		17EADF751BCC30CF00E16715 /* MusicCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				171937341C99F61800A4973C /* Akkord.swift */,
+				171937351C99F61800A4973C /* Grundton.swift */,
+				171937361C99F61800A4973C /* Intervall.swift */,
+				171937371C99F61800A4973C /* IntervallModifier.swift */,
+				171937381C99F61800A4973C /* IntervallTyp.swift */,
+				171937391C99F61800A4973C /* Note.swift */,
+				1719373A1C99F61800A4973C /* Notenschluessel.swift */,
+				1719373B1C99F61800A4973C /* Oktave.swift */,
+				1719373C1C99F61800A4973C /* Tonart.swift */,
+				1719373D1C99F61800A4973C /* Tonleiter.swift */,
+				1719373E1C99F61800A4973C /* Vorzeichen.swift */,
 			);
 			name = MusicCalculator;
 			sourceTree = "<group>";
@@ -197,12 +227,22 @@
 				170049A81B94CE61007CF0A7 /* IntervalsViewController.swift in Sources */,
 				170049A61B94CE61007CF0A7 /* AppDelegate.swift in Sources */,
 				17EADF7D1BCC30EF00E16715 /* ScoreEditButton.swift in Sources */,
+				171937411C99F61800A4973C /* Intervall.swift in Sources */,
+				171937481C99F61800A4973C /* Tonleiter.swift in Sources */,
+				1719373F1C99F61800A4973C /* Akkord.swift in Sources */,
+				171937471C99F61800A4973C /* Tonart.swift in Sources */,
+				171937441C99F61800A4973C /* Note.swift in Sources */,
+				171937491C99F61800A4973C /* Vorzeichen.swift in Sources */,
 				175FCCAE1BCDA21A0040B6D8 /* OptionsViewController.swift in Sources */,
 				17EADF7C1BCC30EF00E16715 /* MusicalSymbols.swift in Sources */,
+				171937431C99F61800A4973C /* IntervallTyp.swift in Sources */,
 				175FCCAC1BCD98DB0040B6D8 /* CursorView.swift in Sources */,
 				17EADF7E1BCC30EF00E16715 /* ScoreGestures.swift in Sources */,
-				17EADF7B1BCC30EF00E16715 /* MidiTest.swift in Sources */,
+				171937461C99F61800A4973C /* Oktave.swift in Sources */,
+				171937421C99F61800A4973C /* IntervallModifier.swift in Sources */,
 				17EADF7F1BCC30EF00E16715 /* ScoreLineView.swift in Sources */,
+				171937401C99F61800A4973C /* Grundton.swift in Sources */,
+				171937451C99F61800A4973C /* Notenschluessel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
