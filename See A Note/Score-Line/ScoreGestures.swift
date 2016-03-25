@@ -47,13 +47,13 @@ class ScoreGestures {
         self.scoreLineView = scoreLineView
         self.editButton = editButton
 
-        let pan = PanPressGestureRecognizer(target: self, action: "panEvent:")
+        let pan = PanPressGestureRecognizer(target: self, action: #selector(ScoreGestures.panEvent(_:)))
         pan.debugLabel = scoreLineView.debugLabel
         editButton.addGestureRecognizer(pan)
 
-        editButton.addTarget(self, action: "touchDownEvent:", forControlEvents: UIControlEvents.TouchDown)
-        editButton.addTarget(self, action: "touchUpEvent:", forControlEvents: UIControlEvents.TouchUpInside)
-        editButton.addTarget(self, action: "touchUpEvent:", forControlEvents: UIControlEvents.TouchUpOutside)
+        editButton.addTarget(self, action: #selector(ScoreGestures.touchDownEvent(_:)), forControlEvents: UIControlEvents.TouchDown)
+        editButton.addTarget(self, action: #selector(ScoreGestures.touchUpEvent(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        editButton.addTarget(self, action: #selector(ScoreGestures.touchUpEvent(_:)), forControlEvents: UIControlEvents.TouchUpOutside)
     }
 
     var panInitial: CGPoint!
@@ -170,7 +170,7 @@ class ScoreGestures {
                         panLastChangeY = point.y
                         panLastChangeX = point.x
                         if panNoteLine > lowestPossibleLine {
-                            panNoteLine--
+                            panNoteLine -= 1
                             deletePosition = false
                         }
                         cancelNote = false
@@ -180,7 +180,7 @@ class ScoreGestures {
                         panLastChangeY = point.y
                         panLastChangeX = point.x
                         if panNoteLine < lineWhichMeansDeletePosition {
-                            panNoteLine++
+                            panNoteLine += 1
                             if panNoteLine == lineWhichMeansDeletePosition {
                                 deletePosition = true
                             }

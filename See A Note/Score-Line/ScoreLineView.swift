@@ -152,13 +152,13 @@ extension UIColor {
 
     // MARK: drawing functions
 
-    func markDrawingPoint() {
+    func markDrawingPoint(color: UIColor = UIColor.redColor()) {
         if debugColor {
             let path = UIBezierPath()
             path.lineWidth = 0.2
             path.moveToPoint(CGPointMake(drawingPoint.x, 0))
             path.addLineToPoint(CGPointMake(drawingPoint.x, self.bounds.height))
-            UIColor.redColor().setStroke()
+            color.setStroke()
             path.stroke()
         }
     }
@@ -285,7 +285,7 @@ extension UIColor {
     }
 
     func drawNoteOnLine(line: Int, head: NoteHeadSymbol = .BLACK) -> CGFloat {
-        markDrawingPoint()
+        markDrawingPoint(UIColor.blackColor())
 
         let y = yNoteLine0 - noteHeight * CGFloat(CGFloat(line) / 2)
         head.glyph.drawAtPoint(CGPointMake(drawingPoint.x, y), withAttributes: attributes)
@@ -313,8 +313,6 @@ extension UIColor {
     }
 
     func drawNotesAtPosition(position: Int) {
-        markDrawingPoint()
-
         let notes = notesForDisplay[position].notes
         let head = notesForDisplay[position].head
 
@@ -382,6 +380,7 @@ extension UIColor {
         if stemDirection == .UP {
             // draw it bottom-up
             notesDistinct = notesDistinct.sort {$0.0 < $1.0}
+            stemX -= stemWidth / 2
         }
         else {
             // draw it top-down
@@ -394,6 +393,7 @@ extension UIColor {
             else {
                 stemX = beginX
             }
+            stemX += stemWidth / 2
         }
         if needShift {
             width += shiftX
@@ -440,11 +440,11 @@ extension UIColor {
     }
 
     func drawStem(stemDirection: StemDirection, upperLine: Int, lowerLine: Int) -> (upperY: CGFloat, lowerY: CGFloat) {
-        markDrawingPoint()
+        markDrawingPoint(UIColor.blueColor())
         let path = UIBezierPath()
         path.lineWidth = stemWidth
 
-        let x = drawingPoint.x - (stemWidth / 2)
+        let x = drawingPoint.x
         var upperY = CGFloat(0)
         var lowerY = CGFloat(0)
 
@@ -591,7 +591,7 @@ extension UIColor {
             }
             drawAccidentalOnLine(accidental.line, accidental: accidental.accidental)
             drawingPoint.x += widthsForPosition[optimizedPosition]
-            position++
+            position += 1
         }
 
         var width: CGFloat = 0.0
@@ -603,7 +603,7 @@ extension UIColor {
     }
 
     func drawAccidentalOnLine(line: Int, accidental: AccidentalSymbol) -> CGFloat {
-        markDrawingPoint()
+        markDrawingPoint(UIColor.magentaColor())
         var width:CGFloat = 0.0
         if (accidental != .NONE) {
             lineAccidentalsCurrentMeasure[line] = accidental
@@ -628,7 +628,7 @@ extension UIColor {
             drawingPoint.x += calcWidthForGlyph(keySignature.accidental.glyph) * 1.5 * widthFactor
         }
         else {
-            drawingPoint.x += calcWidthForGlyph(AccidentalSymbol.SHARP.glyph) * 1.5 * widthFactor
+            drawingPoint.x += calcWidthForGlyph(AccidentalSymbol.SHARP.glyph) * 0.7 * widthFactor
         }
     }
 
@@ -760,13 +760,13 @@ extension ScoreLineView {
             }
         }
         else if editPosition < (notesForDisplay.count - 1) {
-            editPosition++
+            editPosition += 1
             moveCursor()
         }
     }
     func previousPosition() {
         if editPosition > 0 {
-            editPosition--
+            editPosition -= 1
         }
         else if editPosition == 0 {
             if !editClef && !editKeySignature {

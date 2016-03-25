@@ -25,6 +25,7 @@
 		171937491C99F61800A4973C /* Vorzeichen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719373E1C99F61800A4973C /* Vorzeichen.swift */; };
 		175FCCAC1BCD98DB0040B6D8 /* CursorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCCAB1BCD98DB0040B6D8 /* CursorView.swift */; };
 		175FCCAE1BCDA21A0040B6D8 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175FCCAD1BCDA21A0040B6D8 /* OptionsViewController.swift */; };
+		17B305581CA5A7730056301A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B305571CA5A7730056301A /* TestViewController.swift */; };
 		17EADF7C1BCC30EF00E16715 /* MusicalSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */; };
 		17EADF7D1BCC30EF00E16715 /* ScoreEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */; };
 		17EADF7E1BCC30EF00E16715 /* ScoreGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EADF791BCC30EF00E16715 /* ScoreGestures.swift */; };
@@ -55,6 +56,7 @@
 		175FCCAB1BCD98DB0040B6D8 /* CursorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CursorView.swift; path = "Score-Line/CursorView.swift"; sourceTree = "<group>"; };
 		175FCCAD1BCDA21A0040B6D8 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		17B29C1E1B94E8D6004919A0 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
+		17B305571CA5A7730056301A /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		17EADF771BCC30EF00E16715 /* MusicalSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicalSymbols.swift; path = "Score-Line/MusicalSymbols.swift"; sourceTree = "<group>"; };
 		17EADF781BCC30EF00E16715 /* ScoreEditButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreEditButton.swift; path = "Score-Line/ScoreEditButton.swift"; sourceTree = "<group>"; };
 		17EADF791BCC30EF00E16715 /* ScoreGestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreGestures.swift; path = "Score-Line/ScoreGestures.swift"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				170049AE1B94CE61007CF0A7 /* LaunchScreen.storyboard */,
 				170049B11B94CE61007CF0A7 /* Info.plist */,
 				175FCCAD1BCDA21A0040B6D8 /* OptionsViewController.swift */,
+				17B305571CA5A7730056301A /* TestViewController.swift */,
 			);
 			path = "See A Note";
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				171937441C99F61800A4973C /* Note.swift in Sources */,
 				171937491C99F61800A4973C /* Vorzeichen.swift in Sources */,
 				175FCCAE1BCDA21A0040B6D8 /* OptionsViewController.swift in Sources */,
+				17B305581CA5A7730056301A /* TestViewController.swift in Sources */,
 				17EADF7C1BCC30EF00E16715 /* MusicalSymbols.swift in Sources */,
 				171937431C99F61800A4973C /* IntervallTyp.swift in Sources */,
 				175FCCAC1BCD98DB0040B6D8 /* CursorView.swift in Sources */,
